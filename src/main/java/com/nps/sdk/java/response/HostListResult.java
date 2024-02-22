@@ -33,9 +33,9 @@ public class HostListResult implements BaseResponse {
 
 		@Data
 		public static class Flow {
-			private int ExportFlow;
-			private int InletFlow;
-			private int FlowLimit;
+			private long ExportFlow;
+			private long InletFlow;
+			private long FlowLimit;
 		}
 
 		@Data

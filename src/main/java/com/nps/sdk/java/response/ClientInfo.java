@@ -40,9 +40,9 @@ public class ClientInfo implements BaseResponse {
 	@Data
 	public static class ClientFlow {
 
-		private int ExportFlow;
+		private long ExportFlow;
 		private long InletFlow;
-		private int FlowLimit;
+		private long FlowLimit;
 	}
 
 	@Data

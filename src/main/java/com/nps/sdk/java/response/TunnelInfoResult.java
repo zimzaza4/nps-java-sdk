@@ -80,7 +80,7 @@ public class TunnelInfoResult implements BaseResponse {
 			public static class Rate {
 
 
-				private int NowRate;
+				private long NowRate;
 			}
 
 			@lombok.Data
@@ -97,9 +97,9 @@ public class TunnelInfoResult implements BaseResponse {
 		@lombok.Data
 		public static class Flow {
 
-			private int ExportFlow;
+			private long ExportFlow;
 			private long InletFlow;
-			private int FlowLimit;
+			private long FlowLimit;
 		}
 	}
 }
